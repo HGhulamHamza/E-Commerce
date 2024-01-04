@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest Products</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+   <div id="sideNav">
+      <nav>
+          <ul>
+              <li><a href="./index.html">HOME</a></li>
+             
+             
+              <li><a href="./Trendy  proudct.html "> TRENDY PRODUCTS </a></li>
+              <li><a href="./product.html">LATEST  PRODUCTS </a></li>
+              <li><a href="./ProductDetail.html">PRODUCT DETAILS</a></li>
+              <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+      </nav>
+  </div>
+  <div id="menuBtn">
+      <img src="images/menu.jpg">
+  </div>
+
+  
+   
+   <div class="feature">
+      <h1 align="center"><b>TRENDY PRODUCTS</b></h1>
+    <div class="fh3">
+       
+          <h3 align="center">Shop Our Trendy Products now</h3>
+        <div class="card__container">
+           <article class="card__article">
+              <img src="images/dining-table (2).jpg" alt="image" class="card__img">
+              
+              <div class="card__data" >
+                 
+                 <h2 class="card__title"  ><b> Tables</b><br>100$</h2>
+                <button> <a href="https://wa.me/923323959507/?text=Hey%20I've%20seen%20this%20product%20from%20your%20website,%20in%20%22trendy%20products%22%20section.%20I%20want%20more%20details%20of%20that" class="button-link">
+                Order Now
+                </a></button>
+                
+                  
+              
+              </div>
+           </article>
+
+           <article class="card__article">
+              <img src="images/sofa.jpg" alt="image" class="card__img">
+              
+              
+              <div class="card__data">
+               
+                 <h2 class="card__title"><b>Sofa</b><br>120$</h2>
+                 <button><a href="https://wa.me/923323959507/?text=Hey%20I've%20seen%20this%20product%20from%20your%20website,%20in%20%22trendy%20products%22%20section.%20I%20want%20more%20details%20of%20that" class="button-link">
+                 Order Now
+                </a>
+                </button>
+                 
+              </div>
+           </article>
+
+           <article class="card__article">
+              <img src="images/swing.jpg" alt="image" class="card__img">
+              
+              <div class="card__data">
+                 
+                 <h2 class="card__title"><b>Swing</b><br>150$ </h2>
+                <button><a href="https://wa.me/923323959507/?text=Hey%20I've%20seen%20this%20product%20from%20your%20website,%20in%20%22trendy%20products%22%20section.%20I%20want%20more%20details%20of%20that" class="button-link">
+             Order Now
+                </a>
+                </button>
+              </div>
+              
+                 
+              </div>
+           </article>
+        </div>
+        
+    <script>
+      var menuBtn=document.getElementById("menuBtn")
+      var sideNav=document.getElementById("sideNav")
+      var menu=document.getElementById("menu")
+ 
+      menuBtn.onclick=function(){
+         if(sideNav.style.right=="-250px"){
+             sideNav.style.right="0";
+             menu.src="images/close.png";
+         }
+         else{
+             sideNav.style.right="-250px";
+             menu.src="images/menu.jpg";
+         }
+      }
+      var scroll = new SmoothScroll('a[href*="#"]', {
+     speed: 1000,
+     speedAsDuration: true
+ });
+      
+     </script>
+        
+</body>
+
+</html>
+</body>
+</html>

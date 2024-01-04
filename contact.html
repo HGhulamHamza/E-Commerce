@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+</head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+   
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+<body>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+               
+             
+                <li><a href="./Trendy  proudct.html ">TRENDY PRODUCTS </a></li>
+                <li><a href="./product.html">LATEST  PRODUCTS </a></li>
+                <li><a href="./ProductDetail.html">PRODUCT DETAILS</a></li>
+                <li><a href="./contact.html">CONTACT US </a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="images/menu.jpg" id="menu">
+    </div>
+    <section id="footer">
+        
+        <div class="title-text">
+            <div class="para">
+           <b> <p  align="center">CONTACT</p></b></div>
+            <h1 align="center">Come to H&S Furniture   Today!</h1>
+        </div>
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Opening Hours</h1>
+                <p><i class="fa fa-clock"></i> Monday  to Friday- 1pm to 9:30pm</p>
+                <p><i class="fa fa-clock"></i> Saturday- 10am to 2pm<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sunday :Off</p>
+            </div>
+            <div class="footer-right">
+               <b> <h1>Get In Touch</h1></b>
+                <p>Gulbahar,Peshawar,Pakistan<i class="fa fa-map-marker"></i></p>
+                <p>khawajahamza5662gmail.com<i class="fa fa-paper-plane"></i></p>
+                <p>0332-3959507<i class="fa fa-phone"></i></p>
+            </div>
+            <div class="social-links">
+                <a class="social-link" href="https://www.facebook.com/Hafiz Hamza" target="_blank">
+                    <img src="images/facebook-icon.png" alt="Facebook">
+                </a>
+            
+                <!-- Instagram -->
+                <a class="social-link" href="https://www.instagram.com/g_humzaa" target="_blank">
+                    <img src="images/instagram-icon.png" alt="Instagram">
+                </a>
+            
+                <!-- GitHub -->
+                <a class="social-link" href="https://github.com/HGhulamHamzaa" target="_blank">
+                    <img src="images/github-icon.png" alt="GitHub">
+                </a>
+            
+                <!-- LinkedIn -->
+                <a class="social-link" href="https://www.linkedin.com/in/ghulam-hamza-7921bb275/" target="_blank">
+                    <img src="images/linkdein-icon.png" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+    </section>
+         
+    <script>
+        var menuBtn=document.getElementById("menuBtn")
+        var sideNav=document.getElementById("sideNav")
+        var menu=document.getElementById("menu")
+   
+        menuBtn.onclick=function(){
+           if(sideNav.style.right=="-250px"){
+               sideNav.style.right="0";
+               menu.src="images/menu.jpg";
+           }
+           else{
+               sideNav.style.right="-250px";
+               menu.src="images/menu.jpg";
+           }
+        }
+        var scroll = new SmoothScroll('a[href*="#"]', {
+       speed: 1000,
+       speedAsDuration: true
+   });
+        
+       </script>
+    
+</body>
+</html>
